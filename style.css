@@ -11,16 +11,19 @@ h1 {
 section {
   display: flex;
 }
+.dream-big {
+  margin-bottom: 200px;
+}
 .half-width {
   width: 50%;
   padding: 2%;
-  margin: 2%;
 }
 .half-width img {
   width: 80%;
 }
 .link-button {
   text-decoration: none;
+  margin-top: 20px;
   padding: 10px 40px;
   border-radius: 5px;
   background-image: linear-gradient(red, tomato);
@@ -30,4 +33,10 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  background-origin: initial;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
